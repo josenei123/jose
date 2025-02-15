@@ -1,57 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<cabeça>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="largura=largura-do-dispositivo, escala-inicial=1.0">
     <title>José - Perguntas e Captura de Dados</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 50px;
+    <estilo>
+        corpo {
+            família de fontes: Arial, sem serifa;
+            cor de fundo: #f4f4f4;
+            alinhamento de texto: centralizar;
+            preenchimento: 50px;
         }
-        form {
-            background: white;
-            padding: 20px;
-            width: 300px;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px #ccc;
+        forma {
+            fundo: branco;
+            preenchimento: 20px;
+            largura: 300px;
+            margem: automático;
+            raio da borda: 10px;
+            sombra da caixa: 0px 0px 10px #ccc;
         }
-        input, textarea {
-            width: 100%;
-            margin: 10px 0;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        entrada, textarea {
+            largura: 100%;
+            margem: 10px 0;
+            preenchimento: 8px;
+            borda: 1px sólido #ccc;
+            raio da borda: 5px;
         }
-        button {
-            background: blue;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            border-radius: 5px;
+        botão {
+            fundo: azul;
+            cor: branco;
+            preenchimento: 10px;
+            borda: nenhuma;
+            cursor: ponteiro;
+            largura: 100%;
+            raio da borda: 5px;
         }
-        button:hover {
-            background: darkblue;
+        botão: pairar {
+            fundo: azul escuro;
         }
-    </style>
-</head>
-<body>
+    </estilo>
+</cabeçalho>
+<corpo>
 
     <h1>Bem-vindo ao José!</h1>
     <p>Responda às perguntas abaixo e deixe seus contatos.</p>
 
-    <form action="processa.php" method="post">
-        <input type="text" name="nome" placeholder="Seu Nome" required>
-        <input type="email" name="email" placeholder="Seu E-mail" required>
-        <input type="tel" name="telefone" placeholder="Seu Telefone" required>
-        <textarea name="resposta" placeholder="Qual é o seu maior desafio hoje?" required></textarea>
+    <form action="processa.php" método="post">
+        <input type="text" name="nome" placeholder="Seu Nome" obrigatório>
+        <input type="email" name="email" placeholder="Seu E-mail" obrigatório>
+        <input type="tel" name="telefone" placeholder="Seu Telefone" obrigatório>
+        <textarea name="resposta" placeholder="Qual é o seu maior desafio hoje?" obrigatório></textarea>
         <button type="submit">Enviar</button>
     </form>
 
-</body>
-</html>
