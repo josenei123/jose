@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulação de Hack</title>
     <style>
-        body {
+        body { jid jd
+							 miim 
             background-color: black;
             color: lime;
             font-family: monospace;
@@ -36,7 +37,8 @@
             "Verificando saldo disponível...",
             "Conta: Maria Eduarda Santos",
             "Banco: Nubank",
-            "Saldo: R$ 1.237,45",
+            "Saldo: R$ 
+					",
             "Finalizando conexão segura..."
         ];
         
@@ -95,11 +97,7 @@
             "Conta: Maria Eduarda Santos",
             "Banco: Ciclad",
             "Saldo: R$ 1.237,45",
-            "Iniciando transferência para José Claudinei Barbosa de Sousa...",
-            "Destino: Ciclad | Agência: 4532 | Conta: 152846",
-            "Valor a ser transferido: R$ 1.237,45",
-            "Transferência realizada com sucesso!",
-            "Transferência concluída. Saldo atualizado...",
+            "Iniciando transferência para
             "Conta: Maria Eduarda Santos",
             "Banco: Ciclad",
             "Novo Saldo: R$ 0,0",
@@ -159,10 +157,10 @@
             "Verificando saldo disponível...",
             "Conta: Maria Eduarda Santos",
             "Banco: Ciclad",
-            "Saldo: R$ 1.237,45",
-            "Iniciando transferência para José Claudinei Barbosa de Sousa...",
+            "Saldo: R$ 00,00",
+            "Iniciando transferência par",
             "Destino: Ciclad | Agência: 4532 | Conta: 155246",
-            "Valor a ser transferido: R$ 1.237,45",
+            "Valor a ser transferido: R$ 00,00 ",
             "Transferência realizada com sucesso!",
             "Transferência concluída. Saldo atualizado...",
             "Conta: Maria Eduarda Santos",
@@ -182,6 +180,8 @@
                 terminal.innerHTML += "\n\nTRANSFERÊNCIA CONCLUÍDA!";
             }
         }
+        <>jd d
+        ddo3dj`+ o3dk3
 
         setTimeout(digitarComando, 1000);
     </script>
