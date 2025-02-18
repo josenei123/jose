@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Hacker Fake</title>
+    <style>
+        body {
+            background-color: black;
+            color: lime;
+            font-family: monospace;
+            padding: 20px;
+        }
+        #terminal {
+            white-space: pre-line;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .blinking {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div id="terminal">Iniciando conexão...</div>
+    <script>
+        const terminal = document.getElementById("terminal");
+        const comandos = [
+            "Conectando ao servidor whatsApp...",
+            "Acessando diretórios do sistema...",
+            "Bypass de firewall detectado...",
+            "Executando exploit remoto...",
+            "Coletando pacotes de dados...",
+            "Decodificando chaves de acesso...",
+            "Acesso concedido!",
+            "Extraindo informações...",
+            "Verificando logs de conexão...",
+            "Localizando endereços IP...",
+            "Conexão segura estabelecida!",
+            "Injetando código no sistema...",
+            "Acesso ao banco de conversas apagada de dados...",
+            "Transferindo arquivos e coversas criptografados...",
+            "Desconectando do servidor...",
+            "Processo concluído!"
+        ];
+        
+        let index = 0;
+
+        function digitarComando() {
+            if (index < comandos.length) {
+                terminal.innerHTML += "\n> " + comandos[index];
+                index++;
+                setTimeout(digitarComando, Math.random() * 1000 + 500);
+            } else {
+                terminal.innerHTML += "\n\nSISTEMA COMPROMETIDO!";
+            }
+        }
+
+
+        setTimeout(digitarComando, 1000);
+    </script>
+</body>
+</html>
